@@ -50072,7 +50072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3833e6ffc7911924f9dc7f00d6175714, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneIndex: 4
+  targetSceneIndex: 3
   interactionText: {fileID: 0}
 --- !u!61 &1008586787
 BoxCollider2D:
