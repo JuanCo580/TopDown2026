@@ -8,6 +8,7 @@ TagManager:
   - Coin
   - Door
   - InteractionUI
+  - Key
   layers:
   - Default
   - TransparentFX
