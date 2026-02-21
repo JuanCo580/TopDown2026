@@ -19,8 +19,6 @@ public class DoorInteraction : MonoBehaviour
 
     private void FindInteractionUI()
     {
-        // Buscamos el objeto por Tag. FindWithTag sí encuentra objetos 
-        // sin importar su profundidad en la jerarquía.
         interactionText = GameObject.FindWithTag("InteractionUI");
 
         if (interactionText != null)
@@ -60,7 +58,6 @@ public class DoorInteraction : MonoBehaviour
         {
             interactionText.GetComponent<TextMeshProUGUI>().text = "";
             isPlayerNearby = false;
-            //interactionText.SetActive(false);
         }
     }
 }

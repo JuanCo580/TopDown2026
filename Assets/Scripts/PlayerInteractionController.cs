@@ -14,7 +14,7 @@ public class PlayerInteractionController : MonoBehaviour
     public float attackRange = 2f;
     public LayerMask enemyLayer;
 
-    private GameObject currentInteractable; // Para puertas o NPCs
+    private GameObject currentInteractable;
 
     void Update()
     {
@@ -48,8 +48,6 @@ public class PlayerInteractionController : MonoBehaviour
             if (eh != null) eh.TakeDamage(attackDamage);
         }
     }
-
-    // --- INTERACCIÓN ---
     void HandleInteraction()
     {
         if (currentInteractable.CompareTag("NPC"))
