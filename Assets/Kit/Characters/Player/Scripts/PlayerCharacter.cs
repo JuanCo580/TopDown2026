@@ -104,4 +104,8 @@ public class PlayerCharacter : BaseCharacter
     {
         mustPunch = true;
     }
+    internal void NotifyInventoryItemUsed(InventoryItemDefinition definition)
+    {
+        life.RecoverHealth(definition.healthRecovery);
+    }
 }
